@@ -6,6 +6,8 @@
 
 # A better way to upgrade your vehicles.
 
+## [Preview](https://youtu.be/CvuTuQYrO_s)
+
 ## Dependencies
 * [Latest Version of QBCore](https://github.com/qbcore-framework)
 * [PolyZone](https://github.com/mkafrin/PolyZone)
