@@ -12,6 +12,7 @@
 * [Latest Version of QBCore](https://github.com/qbcore-framework)
 * [PolyZone](https://github.com/mkafrin/PolyZone)
 * [qb-target](https://github.com/BerkieBb/qb-target)
+* [qb-menu](https://github.com/qbcore-framework/qb-menu)
 
 ## Installation
 * Download the ZIP file and extract it in your resources folder.
