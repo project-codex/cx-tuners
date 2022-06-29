@@ -345,19 +345,18 @@ RegisterNetEvent('tuners:client:useitem', function(type, item, tier)
                     }, {}, {}, function() -- Done
                         TriggerEvent('inventory:client:ItemBox', QBCore.Shared.Items[item], 'remove')
                         StopAnimTask(ped, "mini@repair", "fixing_a_player", 1.0)
-                        local mod = 0
+                        SetVehicleModKit(closestVeh, 0)
                         if type == 'engine' then
-                            mod = 11
+                            SetVehicleMod(closestVeh, 11, tier, false)
                         elseif type == 'transmission' then
-                            mod = 13
+                            SetVehicleMod(closestVeh, 13, tier, false)
                         elseif type == 'suspension' then
-                            mod = 15
+                            SetVehicleMod(closestVeh, 15, tier)
                         elseif type == 'brakes' then
-                            mod = 12
+                            SetVehicleMod(closestVeh, 12, tier, false)
                         elseif type == 'turbo' then
                             ToggleVehicleMod(closestVeh, 18, 1)
                         end
-                        SetVehicleMod(closestVeh, mod, tier)
 
                         local vehMods = QBCore.Functions.GetVehicleProperties(closestVeh)
                         TriggerServerEvent('tuners:server:finish', item, vehMods)
