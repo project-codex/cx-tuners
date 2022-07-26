@@ -1,8 +1,6 @@
 <div align="center">
-    <img width="150" height="150" src="https://i.ibb.co/XzZZrBg/pc-logo-modified.png">
+    <img src="https://i.ibb.co/k3rpyd6/tunersbanner.png">
 </div>
-
-<h1 align="center">cx-tuners</h1>
 
 # A better way to upgrade your vehicles.
 
